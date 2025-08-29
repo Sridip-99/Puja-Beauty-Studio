@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Puja Beauty Studio</title>
+        <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+        <meta name="description" content="Welcome to Puja Beauty Studio, your number one destination for all things beauty.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+        <link rel="stylesheet" href="/assets/css/styles.css">
+    </head>
+    <body>
+        <header>
+
+            <a href="#">
+                <div id="branding">
+                    <img src="/assets/images/logo.png" alt="Logo" class="logo" id="logo-pc">
+                    <img src="/assets/images/logo-mobile.png" alt="Logo" class="logo" id="logo-mobile">
+                    <h1>Puja <span class="highlight">Beauty Studio</span></h1>
+                </div>
+            </a>
+
+            <input type="checkbox" id="hamburger">
+                <label for="hamburger" class="toggle">
+                    <div class="bars" id="bar1"></div>
+                    <div class="bars" id="bar2"></div>
+                    <div class="bars" id="bar3"></div>
+                </label>
+
+            <div class="nav-and-links">
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="social-links">
+                    <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/social-icons/facebook.png" width="30px" alt="Facebook">
+                    </a>
+                    <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/social-icons/whatsapp.png" width="30px" alt="WhatsApp">
+                    </a>
+                    <a href="http://instagram.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/social-icons/instagram.png"  width="30px" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+            <section id="hero" class="hero">
+                <div class="slides"></div>   <!-- background slides will go here -->
+
+                <h2 class="float-up">Welcome to <span class="highlight">Puja Beauty Studio</span></h2>
+                <p class="float-up">Your number one destination for all things beauty.</p>
+                <!-- <p>Come and treat yourself to a luxurious experience at the <span>Puja Beauty Studio</span>.</p> -->
+                <div class="hero-buttons float-up">
+                    <a href="#about"><i class="fa-solid fa-info-circle"></i> Learn More</a>
+                    <a href="#contact"><i class="fa-solid fa-address-card"></i> Book Now</a>
+                </div>
+
+                <!-- Navigation -->
+                <button class="arrow left">&#10094;</button>
+                <button class="arrow right">&#10095;</button>
+                <div class="dots"></div>
+            </section>
+
+            <section id="about">
+                <h2 class="float-up">About Us</h2>
+
+                <div class="container">
+                    <div class="text-container">
+                        <h3 class="float-up">Our Vision</h3>
+                        <p class="float-up">At Puja Beauty Studio, we believe in enhancing your natural beauty. Our team of skilled professionals is dedicated to providing personalized beauty treatments that cater to your unique needs.</p>
+                        <h3 class="float-up">Our Mission</h3>
+                        <p class="float-up">Our mission is to create a welcoming and inclusive environment where every client feels valued and empowered. We strive to exceed your expectations with our exceptional services and expertise.</p>
+                    </div>
+                    <div class="image-container studio float-up">
+                        <div class="about-btn-container">
+                            <input type="checkbox" id="studio-toggle"></input>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="image-container owner float-up"></div>
+                    <div class="text-container">
+                        <h3 class="float-up">Puja Jana</h3>
+                        <h4 class="float-up">Founder & CEO</h4>
+                        <p class="float-up">With years of experience in the beauty industry, our founder Puja has a passion for helping clients look and feel their best. She leads a team of talented professionals who share her vision of beauty and excellence.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services">
+                <h2 class="float-up">Our Services</h2>
+                <p class="float-up">We offer a wide range of beauty services to cater to your needs.</p>
+                <div class="container">
+                    <div class="service-selector-container float-left">
+                        <div class="button-container">
+                            <div class="button-container-inner">
+
+                                <input type="radio" name="service-type" id="basic-btn" checked="" />
+                                <label for="basic-btn">Basic</label>
+
+                                <input type="radio" name="service-type" id="looks-btn" />
+                                <label for="looks-btn">Looks</label>
+
+                                <div class="option-glider"></div>
+                            </div>
+                            <!-- <button class="service-selector-button">Basic</button>
+                            <button class="service-selector-button">Looks</button> -->
+                        </div>
+                        <ul class="service-list Basic">
+                            <li class="service-selector-item" data-service="eyebrow-shaping">Eyebrow Shaping
+                                <br><a href="#">Learn More &gt;</a>
+                            </li>
+                            <li class="service-selector-item" data-service="threading">Threading
+                                <br><a href="#">Learn More &gt;</a>
+                            </li>
+                            <li class="service-selector-item"data-service="facial">Facial
+                                <br><a href="#">Learn More &gt;</a>
+                            </li>
+                            <li class="service-selector-item" data-service="massage">Massage
+                                <br><a href="#">Learn More &gt;</a>
+                            </li>
+                            <li class="service-selector-item" data-service="haircut">Haircut
+                                <br><a href="#">Learn More &gt;</a>
+                            </li>
+                            <li class="service-selector-item" data-service="hair-spa">Hair Spa
+                                <br><a href="#">Learn More &gt;</a>
+                            </li>
+                            <li class="service-selector-item" data-service="hair-colouring">Hair Colouring
+                                <br><a href="#">Learn More &gt;</a>
+                            </li>
+                            <li class="service-selector-item" data-service="pedicure">Pedicure
+                                <br><a href="#">Learn More &gt;</a>
+                            </li>
+                            <li class="service-selector-item" data-service="manicure">Manicure
+                                <br><a href="#">Learn More &gt;</a>
+                            </li>
+                        </ul>
+                        <ul class="service-list Looks">
+                            <li class="service-selector-item" data-service="bridal-makeup">Bridal Makeup
+                                <br><a href="#">Learn More &gt;</a>
+                            </li>
+                            <li class="service-selector-item"  data-service="party-makeup">Party Makeup
+                                <br><a href="#">Learn More &gt;</a>
+                            </li>
+                            <li class="service-selector-item" data-service="photoshoot-makeup">Photoshoot Makeup
+                                <br><a href="#">Learn More &gt;</a>
+                            </li>
+                            <li class="service-selector-item" data-service="western-makeup">Western Makeup
+                                <br><a href="#">Learn More &gt;</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="image-animation-container">
+                        <div class="service-image-container float-up"></div>
+                        <div class="service-animation-container float-down">
+                            <video autoplay loop muted src=""></video>
+                        </div>
+                    </div>
+                    <div class="price-container float-right"></div>
+                </div>
+            </section>
+
+            <section id="counts">
+                <div class="container">
+                    <div class="count-box-container">
+                        <div class="count-box float-left">
+                            <h3>Happy Clients</h3>
+                            <p>0</p>
+                        </div>
+                        <div class="count-box">
+                            <h3>Bridal Bookings</h3>
+                            <p>0</p>
+                        </div>
+                        <div class="count-box float-right">
+                            <h3>Years of Experience</h3>
+                            <p>0</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="reviews" class="reviews">
+                <h2 class="float-up">Feedbacks</h2>
+                <p class="float-up">See what our satisfied customers have to say about us:</p>
+                <ul class='slider'>
+                    <li class='item'>
+                    <div class='testimonial'>
+                        <p>"Puja Beauty Studio transformed my look! The staff is incredibly skilled and friendly."</p>
+                        <p>Sarah J.</p>
+                        <p>Makeup Artist</p>
+                    </div>
+                    <img class='image' src='/assets/images/review-models/model1.jpg' alt="Sarah J.">
+                    </li>
+                    <li class='item'>
+                    <div class='testimonial'>
+                        <p>"I love the personalized service at Puja Beauty Studio. They really care about their clients."</p>
+                        <p>Emily R.</p>
+                        <p>Fashion Influencer</p>
+                    </div>
+                    <img class='image' src="/assets/images/review-models/model2.jpg" alt="Emily R.">
+                    </li>
+                    <li class='item'>
+                    <div class='testimonial'>
+                        <p>"Best beauty studio in town! Highly recommend their services."</p>
+                        <p>Mousumi S.</p>
+                        <p>Model</p>
+                    </div>
+                    <img class='image' src="/assets/images/review-models/model3.jpg" alt="Mousumi S.">
+                    </li>
+                    <li class='item'>
+                    <div class='testimonial'>
+                        <p>"Puja Beauty Studio is my go-to for all my photoshoots. They always make me look amazing!"</p>
+                        <p>Rinti D.</p>
+                        <p>Professional Model</p>
+                    </div>
+                    <img class='image' src="/assets/images/review-models/model4.jpg" alt="Rinti D.">
+                    </li>
+                    <li class='item'>
+                    <div class='testimonial'>
+                        <p>"Puja Beauty Studio made my bridal makeup flawless! Highly recommend their services."</p>
+                        <p>Soma J.</p>
+                        <p>Bridal Client</p>
+                    </div>
+                    <img class='image' src="/assets/images/review-models/model5.jpg" alt="Soma J.">
+                    </li>
+                    <li class='item'>
+                    <div class='testimonial'>
+                        <p>"Puja Beauty Studio is simply the best! They know how to bring out the beauty in everyone."</p>
+                        <p>Sangtia P.</p>
+                        <p>Western Model</p>
+                    </div>
+                    <img class='image' src="/assets/images/review-models/model6.jpg" alt="Sangtia P.">
+                    </li>
+                </ul>
+                <div class="navbtns">
+                    <button class='btn' data-index='0'></button>
+                    <button class='btn' data-index='1'></button>
+                    <button class='btn' data-index='2'></button>
+                    <button class='btn' data-index='3'></button>
+                    <button class='btn' data-index='4'></button>
+                    <button class='btn' data-index='5'></button>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2 class="float-up">Get in Touch</h2>
+                <p class="float-up">If you have any questions or inquiries, feel free to reach out to us.</p>
+                <div class="container">
+                    <div class="cards-left float-up">
+                        <div class="card">
+                            <h3>Email us.</h3>
+                            <div class="info">
+                                <div class="icon email">
+                                    <img src="/assets/images/logo-svg/email.svg" alt="Email Icon">
+                                </div>
+                                <p>For inquiries, please email us at 
+                                    <br><a href="mailto:info@pujabeautystudio.com">info@pujabeautystudio.com</a>
+                                </p>
+                            </div>
+                            <hr>
+                            <h3>Call us.</h3>
+                            <div class="info">
+                                <div class="icon phone">
+                                    <img src="/assets/images/logo-svg/call.svg" alt="Phone Icon">
+                                </div>
+                                <p>You can reach us by phone at 
+                                    <br><a href="tel:+912345678901">+91 (234) 567-8901</a>
+                                </p>
+                            </div>
+                            <hr>
+                            <h3>WhatsApp us.</h3>
+                            <div class="info">
+                                <div class="icon location">
+                                    <img src="/assets/images/logo-svg/whatsapp.svg" alt="WhatsApp Icon">
+                                </div>
+                                <p>Chat with us on WhatsApp:
+                                    <br><a href="https://wa.me/+912345678901">+91 (234) 567-8901</a>
+                                </p>
+                            </div>
+                            <hr>
+                            <h3>Follow us.</h3>
+                            <div class="social">
+                                <a href="https://facebook.com/pujabeautystudio" target="_blank" rel="noopener noreferrer">
+                                    <div class="social-box">
+                                        <div class="icon facebook">
+                                            <img src="/assets/images/logo-svg/facebook.svg" alt="Facebook Icon">
+                                        </div>
+                                        <p class="float-left">Facebook</p>
+                                    </div>
+                                </a>
+                                <a href="https://instagram.com/pujabeautystudio"  target="_blank" rel="noopener noreferrer">
+                                    <div class="social-box">
+                                        <div class="icon instagram">
+                                            <img src="/assets/images/logo-svg/instagram.svg" alt="Instagram Icon">
+                                        </div>
+                                        <p class="float-left">Instagram</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-right float-up">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.2249555640306!2d88.3091075759097!3d23.271274407000405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8fb983dee7c3b%3A0x3cec1685021824d2!2zRGhhdHJpZ3JhbSByYWlsZ2F0ZSBCdXMgc3RvcCDgpqfgpr7gpqTgp43gprDgp4Dgppfgp43gprDgpr7gpq4g4Kaw4KeH4Kay4KaX4KeH4KafIOCmrOCmvuCmuCDgprjgp43gpp_gpqo!5e0!3m2!1sen!2sin!4v1755622829492!5m2!1sen!2sin" width="600"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-box">
+                        <h3 class="float-left">Call us.</h3>
+                        <a class="float-left" target="_blank" href="tel:+1234567890"><i class="fa-solid fa-phone"></i> +91 (234) 567-8901</a>
+                    </div>
+                    <div class="footer-box">
+                        <h3 class="float-left">WhatsApp us.</h3>
+                        <a class="float-left" target="_blank" href="https://wa.me/1234567890"><i class="fa-brands fa-whatsapp"></i> +91 (234) 567-8901</a>
+                    </div>
+                    <div class="footer-box">
+                        <h3 class="float-left">Visit us.</h3>
+                        <a class="float-left" target="_blank" href="https://goo.gl/maps/your-location"><i class="fa-solid fa-location-dot"></i> Near Dhatrigram Bus Stand</a>
+                    </div>
+                    <div class="footer-box">
+                        <h3 class="float-left">Get Our App</h3>
+                        <a class="float-left" target="_blank" href="https://play.google.com/store/apps/details?id=com.pujabeautystudio"><i class="fa-brands fa-google-play"></i> Puja Beauty Studio</a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2025 Puja Beauty Studio  |  All Rights Reserved | Made with &hearts; by <a href="https://sridiptah99.netlify.app" target="_blank" rel="noopener noreferrer">Sridip</a></p> 
+        </footer>
+
+        <script src="assets/js/hero-image-changer.js" async defer></script>
+        <script src="assets/js/about-studio-image-toggler.js" async defer></script>
+        <script src="assets/js/service-selector.js" async defer></script>
+        <script src="assets/js/count-animate.js" async defer></script>
+        <script src="assets/js/review-carousel.js" async defer></script>
+        <script src="assets/js/float-animation.js" defer></script>
+    </body>
+</html>
