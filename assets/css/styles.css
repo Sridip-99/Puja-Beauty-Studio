@@ -111,7 +111,6 @@ section p {
 	margin: auto;
 	padding: 15px 0;
     text-align: center;
-    overflow: hidden;
 }
 .float-up {
     opacity: 0;
@@ -150,6 +149,7 @@ section p {
     .container{
         padding: 15px;
         flex-direction: column;
+		overflow: hidden;
     }
     section p{
         font-size: 1.2rem;
