@@ -77,6 +77,34 @@ body {
     75% { background-position: 50% 0%; }
     100% { background-position: 0% 50%; }
 }
+/* ========== Preloader ========== */
+#preloader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--color3);
+  z-index: 100 !important;
+}
+#preloader img {
+  width: 10.5rem;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  animation: breath-in 0.9s infinite linear;
+}
+@keyframes breath-in {
+    0% { transform: scale(0.95); opacity: 0.85; }
+    50%{ transform: scale(1); opacity: 1; }
+    100% { transform: scale(0.95); opacity: 0.85; }
+}
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
