@@ -6,7 +6,7 @@ let currentIndex = 0;
 for (let i = 1; i <= totalImages; i++) {
   const slide = document.createElement("div");
   slide.classList.add("slide");
-  slide.style.backgroundImage = `url('assets/images/heroimg/${i}.jpg')`;
+  slide.style.backgroundImage = `url('assets/images/heroimg/${i}.webp')`;
   if (i === 1) slide.classList.add("active");
   slidesContainer.appendChild(slide);
 }
@@ -52,3 +52,4 @@ document.querySelector(".arrow.right").addEventListener("click", nextSlide);
 
 // Auto play
 setInterval(nextSlide, 5000);
+
