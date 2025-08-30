@@ -559,7 +559,7 @@ main {
     position: relative;
     height: fit-content;
     padding: 40px 0;
-    background-image: url('/assets/images/aboutbg.png');
+    background-image: url('/assets/images/aboutbg.webp');
     background-size: cover;
     background-position: center;
     border-image-repeat: no-repeat;
@@ -622,12 +622,12 @@ main {
 .studio {
     border-radius: 30px 30px 30px 5px;
     border-color: var(--color3);
-    background-image: url('/assets/images/outer.jpg');
+    background-image: url('/assets/images/outer.webp');
 }
 .owner {
     border-radius: 30px 5px 30px 30px;
     border-color: var(--color1);
-	background-image: url('/assets/images/owner.jpg');
+	background-image: url('/assets/images/owner.webp');
 }	
 .about-btn-container{
     position: relative;
@@ -664,7 +664,7 @@ main {
     transition: all 0.3s ease-in-out;
 }
 .studio.inner {
-    background-image: url('/assets/images/inner.jpg');
+    background-image: url('/assets/images/inner.webp');
 }
 @media screen and (max-width: 768px) {
     .image-container {
