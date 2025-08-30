@@ -11,9 +11,14 @@
         <link rel="stylesheet" href="/assets/css/styles.css">
     </head>
     <body>
-        <header>
 
-            <a href="#">
+        <div id="preloader">
+            <img src="assets/images/logo-large.webp" alt="Loading…" />
+        </div>
+        
+        <header>
+            
+            <a href="https://pujabeautystudio.netlify.app">
                 <div id="branding">
                     <img src="/assets/images/logo.webp" alt="Logo" class="logo" id="logo-pc">
                     <img src="/assets/images/logo-mobile.webp" alt="Logo" class="logo" id="logo-mobile">
@@ -339,6 +344,12 @@
             <p>&copy; 2025 Puja Beauty Studio  |  All Rights Reserved | Made with &hearts; by <a href="https://sridiptah99.netlify.app" target="_blank" rel="noopener noreferrer">Sridip</a></p> 
         </footer>
 
+        <script>
+            const preloader = document.querySelector('#preloader');
+            window.addEventListener('load', function(){
+                preloader.style.display = "none";
+            });
+        </script>
         <script src="assets/js/hero-image-changer.js" async defer></script>
         <script src="assets/js/about-studio-image-toggler.js" async defer></script>
         <script src="assets/js/service-selector.js" async defer></script>
@@ -348,5 +359,6 @@
     </body>
 
 </html>
+
 
 
