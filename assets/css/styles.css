@@ -1,19 +1,19 @@
 /* ==================================== IMPORTING FONTS ==================================== */
 @font-face {
     font-family: 'heading1'; /* Choose a descriptive name for your font */
-    src: url('/assets/fonts/heading1.otf') format('woff'); /* Path to your font file */
+    src: url('/assets/fonts/heading1.woff2') format('woff'); /* Path to your font file */
 }
 @font-face {
     font-family: 'heading2'; /* Choose a descriptive name for your font */
-    src: url('/assets/fonts/heading2.otf') format('woff'); /* Path to your font file */
+    src: url('/assets/fonts/heading2.woff2') format('woff'); /* Path to your font file */
 }
 @font-face {
     font-family: 'heading3'; /* Choose a descriptive name for your font */
-    src: url('/assets/fonts/heading3.ttf') format('woff'); /* Path to your font file */
+    src: url('/assets/fonts/heading3.woff2') format('woff'); /* Path to your font file */
 }
 @font-face {
     font-family: 'body1'; /* Choose a descriptive name for your font */
-    src: url('/assets/fonts/body1.ttf') format('woff'); /* Path to your font file */
+    src: url('/assets/fonts/body1.woff2') format('woff'); /* Path to your font file */
 }
 /* ==================================== BASE STYLING ==================================== */
 html {
