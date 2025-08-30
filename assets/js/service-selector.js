@@ -8,10 +8,11 @@ const priceContainer = document.querySelector('.price-container');
 function updateMedia(serviceItem) {
   const service = serviceItem.getAttribute('data-service');
   if (service && imageContainer && videoTag) {
-    imageContainer.style.backgroundImage = `url('/assets/images/services/${service}/image.jpg')`;
+    imageContainer.style.backgroundImage = `url('/assets/images/services/${service}/image.webp')`;
+    videoTag.poster = `/assets/images/services/${service}/thumb.webp`;
     videoTag.src = `/assets/images/services/${service}/animation.mp4`;
     videoTag.load();
-    priceContainer.style.backgroundImage = `url('/assets/images/services/${service}/price.png')`;
+    priceContainer.style.backgroundImage = `url('/assets/images/services/${service}/price.webp')`;
   }
 }
 
