@@ -1020,7 +1020,7 @@ main {
 .count-box {
     flex: 1;
     flex-grow: 1;
-    width: 250px;
+    width: min(fit-content,250px);
     display: flex;
     flex-direction: column;
     align-items: center;
