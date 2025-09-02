@@ -177,7 +177,6 @@ section p {
     .container{
         padding: 15px;
         flex-direction: column;
-		overflow: hidden;
     }
     section p{
         font-size: 1.2rem;
@@ -1003,6 +1002,9 @@ main {
     75% { background-position: 50% 0%; }
     100% { background-position: 0% 50%; }
 }
+#counts .container{
+	overflow: hidden;
+}
 .count-box-container{
     max-width: 1100px;
     width: 100%;
@@ -1013,6 +1015,7 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+	overflow: hidden;
 }
 .count-box {
     flex: 1;
