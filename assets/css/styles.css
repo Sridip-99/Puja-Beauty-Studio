@@ -650,7 +650,7 @@ main {
 .studio {
     border-radius: 30px 30px 30px 5px;
     border-color: var(--color3);
-    background-image: url('/assets/images/outer.webp');
+    background-image: url('https://raw.githubusercontent.com/Sridip-99/Puja-Beauty-Studio/refs/heads/main/assets/images/outer.webp');
 }
 .owner {
     border-radius: 30px 5px 30px 30px;
@@ -692,7 +692,7 @@ main {
     transition: all 0.3s ease-in-out;
 }
 .studio.inner {
-    background-image: url('/assets/images/inner.webp');
+    background-image: url('https://raw.githubusercontent.com/Sridip-99/Puja-Beauty-Studio/refs/heads/main/assets/images/inner.webp');
 }
 @media screen and (max-width: 768px) {
     .image-container {
