@@ -8,11 +8,11 @@ const priceContainer = document.querySelector('.price-container');
 function updateMedia(serviceItem) {
   const service = serviceItem.getAttribute('data-service');
   if (service && imageContainer && videoTag) {
-    imageContainer.style.backgroundImage = `url('https://github.com/Sridip-99/Puja-Beauty-Studio/blob/main/assets/images/services/${service}/image.webp')`;
-    videoTag.poster = `https://github.com/Sridip-99/Puja-Beauty-Studio/blob/main/assets/images/services/${service}/thumb.webp`;
-    videoTag.src = `https://github.com/Sridip-99/Puja-Beauty-Studio/blob/main/assets/images/services/${service}/animation.mp4`;
+    imageContainer.style.backgroundImage = `url('https://raw.githubusercontent.com/Sridip-99/Puja-Beauty-Studio/refs/heads/main/assets/images/services/${service}/image.webp')`;
+    videoTag.poster = `https://raw.githubusercontent.com/Sridip-99/Puja-Beauty-Studio/blob/main/assets/images/services/${service}/thumb.webp`;
+    videoTag.src = `https://raw.githubusercontent.com/Sridip-99/Puja-Beauty-Studio/blob/main/assets/images/services/${service}/animation.mp4`;
     videoTag.load();
-    priceContainer.style.backgroundImage = `url('/assets/images/services/${service}/price.webp')`;
+    priceContainer.style.backgroundImage = `url('https://raw.githubusercontent.com/Sridip-99/Puja-Beauty-Studio/blob/main/assets/images/services/${service}/price.webp')`;
   }
 }
 
@@ -54,4 +54,5 @@ serviceLists.forEach(list => {
     });
   });
 });
+
 
