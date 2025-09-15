@@ -77,6 +77,20 @@ body {
     75% { background-position: 50% 0%; }
     100% { background-position: 0% 50%; }
 }
+body::-webkit-scrollbar{
+    display: block;
+    width: .35rem;
+    background: linear-gradient(120deg, var(--color3), var(--color4), var(--color3));
+}
+body::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background: var(--color7);
+}
+@media screen and (max-width:768px){
+    body::-webkit-scrollbar{
+        display: none;
+    }
+}
 /* ========== Preloader ========== */
 #preloader {
   display: flex;
